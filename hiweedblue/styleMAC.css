@@ -1,0 +1,96 @@
+body { background-color : transparent; font-size: 12px; font-family: Tahoma, 宋体; margin: 0px; padding: 0px;}
+table {width: 100%; margin: 0; padding: 0; font-size: 12px}
+table td {padding: 0; border-width: 0; vertical-align: top; font-family: Tahoma, 宋体; font-size: 12px}
+table.main {width: 780px; background:#ffffff; border-left: 1px solid Silver; border-right: 1px solid Silver; }
+table { border: 0; }
+table.poweredby {width: 780px; background: #F0F0F0; border-top: 1px dotted Gray; border-bottom: 1px dotted Gray; border-left: 1px solid Silver; border-right: 1px solid Silver; }
+a {color: #4169E1; text-decoration: none; font-family: Tahoma, 宋体; font-weight: normal; background-color: transparent;}
+a:hover {color: #181C4C;}
+.top a {	color: Navy; font-size: 12px; font-family: Tahoma, 宋体;} 
+.top a:hover {font-family: Tahoma, 宋体; text-decoration: underline; }
+#nav {width: 100%; background-color: #F4F4F4; border-bottom: 1px dotted Gray; padding-left: 10px; margin: 0px 0px 8px 0px; 	font-family:arial, 宋体;font-size:12px;	border-top: 1px dotted Gray;	}
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: square inside; color: #708090;
+}
+form {font-family: Tahoma, 宋体;margin: 0px; padding: 0px;}
+input {font-family: Tahoma, 宋体; border-right: #000000 1px solid; border-top: #000000 1px solid; border-left: #000000 1px solid; color: #000000; border-bottom: #000000 1px solid; background-color: transparent; font-size: 12px; }
+select {font-family: Tahoma, 宋体; border-right: #000000 1px solid; border-top: #000000 1px solid; background: transparent; color: #000000; border-bottom: 1px dashed #000000; font-size: 12px; }
+.navinput {font-family: Tahoma, 宋体; width:60px; height:12px; font-size: 12px; border:1px solid #000000; background-color: transparent; padding:4px;}
+.navinputImage {vertical-align: middle; border: none; }
+textarea{font-family: Tahoma, 宋体; font-size:12px;}
+.item {border: 1px solid #708090;}
+.itemHead {font-family: Tahoma, 宋体; padding: 3px; background-color: #6495ED; color: #FFFFFF;}
+.itemInfo {font-family: Tahoma, 宋体; text-align: right; padding: 3px; background-color: #efefef}
+.itemTitle a {font-family: Tahoma, 宋体; font-size: 130%; font-weight: bold; color: #ffffff; background-color: transparent;}
+.itemPoster {font-family: Tahoma, 宋体; }
+.itemPostDate {font-family: Tahoma, 宋体; }
+.itemStats {font-family: Tahoma, 宋体; }
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-family: Tahoma, 宋体; font-size: 133%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; background-color: #efefef}
+.itemAdminLink {font-size: 12px;}
+.itemPermaLink {font-family: Tahoma, 宋体; font-size: 12px%; }
+th {background-color: #6495ED; color: #FFFFFF; padding : 2px; vertical-align : middle; font-family: Tahoma, 宋体;}
+td#headerbanner {width: 100%; background-color: #6495ED; vertical-align: middle; text-align:center; color: White; }
+td#headerbar {background-image: url(hbar.png);}
+td#leftcolumn {width: 180px; border-right: 1px dotted #DCDCDC; font-size:12px; font-family: Tahoma, 宋体;}
+td#leftcolumn th {background-color: #6495ED; color: #FFFFFF; vertical-align: middle; font-family: Tahoma, 宋体;}
+td#leftcolumn div.blockTitle {font-family: Tahoma, 宋体; color: #000000; font-weight: bold; text-align: center; background: #EEEEEE; border-right: 8px solid #97B9D7; }
+td#leftcolumn div.blockContent {padding: 3px; font-family: Tahoma, 宋体; line-height: 120%;}
+td#centercolumn {width:580px; font-size: 12px; font-family: Tahoma, 宋体;}
+td#centercolumn th {background-color: #6495ED; color: #FFFFFF; vertical-align: middle;}
+td#centerCcolumn {padding: 0px 1px 1px 1px; }
+td#centerCcolumn legend.blockTitle {padding: 3px; color: #D2B48C; font-family: Tahoma, 宋体;font-weight: bold; margin-top: 0px; margin-right: 0px; margin-left: 0px; }
+td#centerCcolumn div.blockContent {font-family: Tahoma, 宋体; border-left: 1px dotted #F5DEB3; border-right: 1px dotted #F5DEB3; border-bottom: 1px dotted #F5DEB3; padding: 3px; margin-right: 0px; margin-left: 0px; margin-bottom: 2px; line-height: 120%; }
+td#centerLcolumn {font-family: Tahoma, 宋体; width: 390px; padding: 0px 1px 0px 0px;}
+td#centerLcolumn legend.blockTitle {font-family: Tahoma, 宋体; padding: 3px; color: #639ACE; font-weight: bold; margin-top: 0px; }
+td#centerLcolumn div.blockContent {font-family: Tahoma, 宋体; padding: 3px; margin-left: 3px; margin-right: 2px; margin-bottom: 2px; line-height: 120%; }
+td#centerRcolumn {font-family: Tahoma, 宋体; width: 390px; padding: 0px 1px 0px 15px; }
+td#centerRcolumn legend.blockTitle {font-family: Tahoma, 宋体; padding: 3px; color: #639ACE; font-weight: bold; margin-top: 0px;}
+td#centerRcolumn div.blockContent {font-family: Tahoma, 宋体; padding: 3px; margin-left: 2px; margin-right: 3px; margin-bottom: 2px; line-height: 120%; }
+div#content {font-family: Tahoma, 宋体; text-align: left; padding: 8px; }
+td#rightcolumn {font-family: Tahoma, 宋体; width: 165px; border-left: 1px dotted #FA8072; font-size:12px;}
+td#rightcolumn th {font-family: Tahoma, 宋体; background-color: #6495ED; color: #FFFFFF; vertical-align: middle; font-size: 12px;}
+td#rightcolumn div.blockTitle {font-family: Tahoma, 宋体; color: #000000; font-weight: bold; text-align: center; background: #EEEEEE; border-left: 8px solid #A9A9A9; }
+td#rightcolumn div.blockContent {font-family: Tahoma, 宋体; padding: 3px; line-height: 120%; font-size: 12px;}
+tr#headerbar {font-family: Tahoma, 宋体; text-align:center; background-image: url(hbar.png);}
+tr#footerbar {font-family: Tahoma, 宋体; text-align:center; background-image: url(hbar.png);}
+td#mainmenu a {display: block; margin: 0; padding: 4px; font-size:12px;}
+td#mainmenu a:hover {background: #F4F4F4; }
+td#mainmenu a.menuTop {padding-left: 3px; line-height: 100%; }
+td#mainmenu a.menuMain {padding-left: 3px; line-height: 100%; }
+td#mainmenu a.menuSub {font-size:12px; padding-left: 28px; line-height: 100%; }
+td#usermenu a {font-size:12px; display: block; margin: 0; padding: 4px; line-height: 100%;}
+td#usermenu a:hover {background: #F4F4F4; }
+td#usermenu a.menuTop {line-height: 100%;}
+td#usermenu a.highlight {}
+.outer {font-family: Tahoma, 宋体; border: 1px solid #ADD8E6;}
+.head {font-family: Tahoma, 宋体; background-color: #E0FFFF; padding: 5px; font-weight: bold;}
+.even {font-family: Tahoma, 宋体; background-color: #EFEFEF; padding: 5px;}
+.odd {font-family: Tahoma, 宋体; padding: 5px; }
+.foot {font-family: Tahoma, 宋体; background-color: #F5FFFA; padding: 5px; font-weight: bold;}
+tr.even td {font-family: Tahoma, 宋体; background-color: #EFEFEF; padding: 5px;}
+tr.odd td {font-family: Tahoma, 宋体; background-color: #E0FFFF; padding: 5px;}
+div.errorMsg {font-family: Tahoma, 宋体; background-color: #6A5ACD; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg {font-family: Tahoma, 宋体; background-color: #191970; color: #F5F5F5; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg {font-family: Tahoma, 宋体; background-color : #708090; color: #F0FFF0; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+div.xoopsCode { background: #F2F2F2; border: 1px dotted #D8D8D8; font-family: Tahoma,宋体; padding: 0px 6px 0px 6px;}
+div.xoopsQuote { background: #F2F2F2; border: 1px dotted #D8D8D8; font-family: Courier,宋体; padding: 0px 6px 6px 6px;}
+.comTitle {font-family: Tahoma, 宋体; margin-bottom: 2px;}
+.comText {font-family: Tahoma, 宋体; padding: 2px;}
+.comUserStat {font-family: Tahoma, 宋体; font-size: 12px; color: #6495ED; border: 1px solid #B0C4DE; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-family: Tahoma, 宋体; font-weight: normal;}
+.comUserStatus {font-family: Tahoma, 宋体; margin-left: 2px; margin-top: 10px; color: #6495ED; }
+.comUserRank {margin: 2px;}
+.comUserRankText {font-family: Tahoma, 宋体; font-size: 12px;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-family: Tahoma, 宋体; font-weight: normal; }
+.comDateCaption {font-family: Tahoma, 宋体; font-style: normal;}
